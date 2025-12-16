@@ -17,6 +17,7 @@ public class RestApiAppResponse<T extends BaseDto> {
         this.message = message;
     }
 
+    /*
     // success with a list of friends
     List<FriendsListDTO> payload = List.of(FriendsListDTO);
     return sendResponse(200, payload, null);
@@ -25,7 +26,10 @@ public class RestApiAppResponse<T extends BaseDto> {
     List<String> msg = List.of("Friend request sent");
     return sendResponse(200, msg, null);
 
-// error case
+    // error case
     return sendResponse(404, List.of(), "Friend request not found");
+
+
+     */
 
 }
